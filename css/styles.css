@@ -1,0 +1,237 @@
+:root {
+  --font-size-heading: 1.5em;
+  --font-size-body: .7em;
+  --main-line-height: 40px;
+  --button-font-1: 1em;
+  --button-font-2: .9em;
+  --main-background-color: transparent;
+}
+
+@font-face {
+    font-family: 'loves';
+    src: url('../fonts/loves.ttf');
+}
+
+html, body {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'loves';
+}
+
+@keyframes fadeanim {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+.flex {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(-45deg, #EE7752, #f442c2, #62c6fc, #23D5AB);
+  background-size: 400% 400%;
+  animation: fadeanim 10s ease infinite;
+}
+
+.main-container{
+  width:80%;
+  height:400px;
+  background-color: white;
+  margin:auto;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  background-color: var(--main-background-color);
+  text-align: center;
+  height: 40px;
+  line-height: var(--main-line-height);
+  font-weight: bold;
+  font-size: var(--font-size-heading);
+}
+
+.profile {
+  height:100%;
+  border-radius: 50%;
+  transition-duration: .5s;
+}
+
+.profile:hover {
+  height: 98%;
+  padding-top:0px;
+  box-shadow: 0 0 5px 5px #ccc;
+}
+
+.main-container > .profile-container {
+  background-color:var(--main-background-color);
+  width: 100%;
+  height:160px;
+}
+
+.links {
+  width: 100%;
+  background-color: var(--main-background-color);
+  height: 40px;
+  line-height: var(--main-line-height);
+  border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.link-img {
+  width: 30px;
+  text-align: center;
+  margin-right: 3%;
+  margin-top: 5px;
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+}
+
+.link-img2 { /*FIXES YOUTUBE CENTERING ISSUE*/
+  width: 30px;
+  text-align: center;
+  margin-top: 5px;
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+}
+
+.link-img:hover, .link-img2:hover {
+  opacity:.5;
+}
+
+.entercontainer {
+  height: 40px;
+  line-height: 30px;
+  width:100%;
+  background-color: var(--main-background-color);
+  overflow:auto;
+  margin:auto;
+}
+
+.enterbutton {
+  display: block;
+  background-color: black;
+  text-decoration: none;
+  font-size: var(--button-font-2);
+  color: white;
+  line-height: 30px;
+  height: 30px;
+  width: 105px;
+  border-radius: 5px;
+  margin:auto;
+  position: relative;
+  margin-top: 5px;
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+}
+
+.buttoncontainer {
+  overflow:auto;
+  width: 100%;
+  background-color:  var(--main-background-color);
+  height: 50px;
+  margin:auto;
+}
+
+.enterbutton:hover {
+  opacity: .7;
+}
+
+.CVbutton {
+  display: block;
+  background-color: black;
+  text-decoration: none;
+  font-size: var(--button-font-1);
+  color: white;
+  line-height: 40px;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  margin:auto;
+  position: relative;
+  margin-top: 5px;
+  transition: opacity .3s ease-in-out;
+  opacity: 1;
+}
+
+.CVbutton:hover {
+  opacity: .7;
+}
+
+.text-slider {
+  width: 100%;
+  background-color: var(--main-background-color);
+  height: 30px;
+  line-height: 30px;
+  border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.text-slider:before{  /*TEXT SLIDER PRECONDITIONS*/
+    content: 'Welcome';
+    font-size: 100%;
+    animation-name: head;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    15% {opacity:1; content: "Welcome"} /*LAYOUT OF KEYFRAMES IS DUE TO UNCONTROLLABLE OVERLAPPING*/
+    19% {opacity:0; content: "Welcome"} /*ANIMATION*/
+    21% {opacity:0; content: "Please Have a Seat"} /*TEXT CHANGE*/
+    25% {opacity:1; content: "Please Have a Seat"} /*ANIMATION*/
+
+    40% {opacity:1; content: "Please Have a Seat"} /*TEXT*/
+    44% {opacity:0; content: "Please Have a Seat"} /*ANIMATION*/
+    46% {opacity:0; content: "This is Me"} /*TEXT CHANGE*/
+    50% {opacity:1; content: "This is Me"} /*ANIMATION*/
+
+    65% {opacity:1; content: "This is Me"} /*TEXT*/
+    69% {opacity:0; content: "This is Me"} /*ANIMATION*/
+    71% {opacity:0; content: "Contact Links Above"} /*TEXT CHANGE*/
+    75% {opacity:1; content: "Contact Links Above"} /*ANIMATION*/
+
+    90% {opacity:1; content: "Contact Links Above"} /*TEXT*/
+    94% {opacity:0; content: "Contact Links Above"} /*ANIMATION*/
+    96% {opacity:0; content: "Welcome"} /*TEXT CHANGE*/
+    100% {opacity:1; content: "Welcome"} /*ANIMATION*/
+}
+
+.copyright {
+  width: 100%;
+  background-color: var(--main-background-color);
+  height: 20px;
+  line-height: 20px;
+  font-size: var(--font-size-body);
+}
+
+/*@media only screen and (min-width: 286px){
+  .name {font-size: 1em;}
+  .link-img {width: 20px; margin-top: 10px;}
+  .link-img2 {width: 20px; margin-top: 10px;}
+}
+
+@media only screen and (max-width: 382px){
+  .main-container  {width: 80%;}
+}*/
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query*/
+/* Design for Mobile First*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

@@ -3,7 +3,7 @@
     <head>
       <title>Welcome!</title>
       <meta charset="utf-8">
-      <link rel="stylesheet" href="css/startpagestyle.css">
+      <link rel="stylesheet" href="css/styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1"> <!--RESIZES CONTENT FOR MOBILE-->
       <script src="scripts/script.js"></script>
       <link rel="icon" href="img/brad.ico"/> <!-- AWARE OF THIS ERROR -->
@@ -11,8 +11,9 @@
 
 
 
-<body onload="document.body.style.opacity='1'"> <!-- REMOVE THIS DIRTY CODE -->
-  <section class="main">
+<body> <!-- REMOVE THIS DIRTY CODE -->
+<div class="flex">
+  <div class="main-container">
     <div class="profile-container">
       <img class="profile" src="img/brad.png" alt="Image of Me">
     </div>
@@ -32,6 +33,7 @@
             <div class="text-slider">
                 <h1 class="headtext" id="text1">.</h1> <!-- Placeholder for CSS text slider -->
             </div>
+
                 <div class="buttoncontainer">
                   <a href="downloads/cv.docx" class="CVbutton">Download CV</a>
                 </div>
@@ -39,12 +41,15 @@
                   <a href="education.html" class="enterbutton">Enter Site</a>
                 </div>
 
-<div class="copyright">
-    Ⓒ Bradley Archer
-</div>
+  <div class="copyright">
+      Ⓒ Bradley Archer
+  </div>
 
-  </section>
+  </div>
+<div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 
 </html>
