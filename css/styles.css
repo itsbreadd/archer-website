@@ -24,6 +24,10 @@ body {
   font-family: 'loves';
 }
 
+html {
+  background-color: green;
+}
+
 @keyframes fadeanim {
 	0% {background-position: 0% 50%}
 	50% {background-position: 100% 50%}
@@ -32,7 +36,7 @@ body {
 
 .flex {
   display: flex;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   align-items: center;
   background: linear-gradient(-45deg, #EE7752, #f442c2, #62c6fc, #23D5AB);
