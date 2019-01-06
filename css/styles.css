@@ -18,14 +18,7 @@ html, body {
   height:100%;
   margin:0;
   padding:0;
-}
-
-body {
   font-family: 'loves';
-}
-
-html {
-  background-color: green;
 }
 
 @keyframes fadeanim {
@@ -42,6 +35,9 @@ html {
   background: linear-gradient(-45deg, #EE7752, #f442c2, #62c6fc, #23D5AB);
   background-size: 400% 400%;
   animation: fadeanim 10s ease infinite;
+  box-sizing: border-box;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
 .main-container {
@@ -110,10 +106,6 @@ html {
   opacity: 1;
 }
 
-.link-img:hover, .link-img2:hover {
-  opacity:.5;
-}
-
 .enter-container {
   height: 40px;
   line-height: 30px;
@@ -148,7 +140,7 @@ html {
   margin:auto;
 }
 
-.enterbutton:hover {
+.enterbutton:hover, .CVbutton:hover, .link-img:hover, .link-img2:hover { /*Hover animations for all buttons*/
   opacity: .7;
 }
 
@@ -167,10 +159,6 @@ html {
   margin-top: 5px;
   transition: opacity .3s ease-in-out;
   opacity: 1;
-}
-
-.CVbutton:hover {
-  opacity: .7;
 }
 
 .text-slider {
@@ -218,16 +206,6 @@ html {
   line-height: 20px;
   font-size: var(--font-size-body);
 }
-
-/*@media only screen and (min-width: 286px){
-  .name {font-size: 1em;}
-  .link-img {width: 20px; margin-top: 10px;}
-  .link-img2 {width: 20px; margin-top: 10px;}
-}
-
-@media only screen and (max-width: 382px){
-  .main-container  {width: 80%;}
-}*/
 
 
 /* Extra small devices (phones, less than 768px) */
