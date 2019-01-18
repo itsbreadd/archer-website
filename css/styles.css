@@ -187,19 +187,35 @@ nav li a:hover {
 
 .link-img {
   width: 30px;
-  text-align: center;
-  margin-right: 3%;
-  margin-top: 5px;
   transition: opacity .3s ease-in-out;
   opacity: 1;
 }
 
-.link-img2 { /*FIXES YOUTUBE CENTERING ISSUE*/
-  width: 30px;
-  text-align: center;
-  margin-top: 5px;
-  transition: opacity .3s ease-in-out;
-  opacity: 1;
+.sociallinks {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.fa {
+  color: black;
+  transition: transform .3s;
+}
+
+.fa:hover {
+  transform: scale(1.5);
+  text-decoration: none;
+}
+
+.tooltip-inner {
+    font-family: 'loves';
+    font-size: .8em;
 }
 
 .enter-container {
@@ -236,8 +252,10 @@ nav li a:hover {
   margin:auto;
 }
 
-.enterbutton:hover, .CVbutton:hover, .link-img:hover, .link-img2:hover { /*Hover animations for all buttons*/
+.enterbutton:hover, .CVbutton:hover, .link-img:hover { /*Hover animations for all buttons*/
   opacity: .7;
+  text-decoration: none;
+  color: white;
 }
 
 .CVbutton {

@@ -24,3 +24,7 @@ $(document).ready(function() { //MENU CONTROL
                $('.downarrow').toggleClass('flip');
        });
    });
+
+   $(document).ready(function() {
+       $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+   });
