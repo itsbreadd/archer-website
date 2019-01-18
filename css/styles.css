@@ -21,10 +21,106 @@ html, body {
   font-family: 'loves';
 }
 
+h1, h2, p {
+  margin:0;
+  padding:0;
+}
+
+header {
+  width: 100%;
+  background-color: #ffb3e9;
+}
+
 @keyframes fadeanim {
 	0% {background-position: 0% 50%}
 	50% {background-position: 100% 50%}
 	100% {background-position: 0% 50%}
+}
+
+.main-name-container {
+  width: 100%;
+}
+
+.main-name-container > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.main-name{
+  width: 100%;
+  text-align: center;
+  border-bottom: var(--border-lines);
+}
+
+.btn-mobile {
+  width: 100%;
+  text-align: center;
+  transition-duration: 1s;
+  cursor: pointer;
+  border-bottom: var(--border-lines);
+}
+
+.btn-mobile:hover {
+  background-color: #313131;
+  border-radius: 10px;
+}
+
+.btn-mobile > img:active {
+  transform: rotate(180deg);
+}
+
+.downarrow {
+  height: 10px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.downarrow.flip {
+  transform: rotate(-180deg);
+}
+
+nav{
+  width:100%;
+  overflow: visible;
+}
+
+ul > li {
+  display: block;
+  text-align: center;
+  float: none;
+}
+
+.menu {
+  width: 100%;
+  display: none;
+  background-color: #ffb3e9;
+  z-index: 999;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 35px;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+  transition-duration: 1s;
+}
+
+nav li a:hover {
+  background-color: #2f2f2f;
+  color: white;
+  border-radius: 20px;
 }
 
 .flex {
