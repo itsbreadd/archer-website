@@ -22,6 +22,7 @@ $(document).ready(function() { //MENU CONTROL
        $('.btn-mobile').click(function() {
                $('.menu').slideToggle('slow');
                $('.downarrow').toggleClass('flip');
+               $('.nav-darken').slideToggle(1000);
        });
    });
 
