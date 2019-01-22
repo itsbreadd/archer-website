@@ -164,6 +164,7 @@ nav li a:hover {
   min-height: 100%;
   width: 100%;
   align-items: center;
+  justify-content: center;
   background: linear-gradient(-45deg, #EE7752, #f442c2, #62c6fc, #23D5AB);
   background-size: 400% 400%;
   animation: fadeanim 10s ease infinite;
@@ -360,6 +361,19 @@ nav li a:hover {
   height: 20px;
   line-height: 20px;
   font-size: var(--font-size-body);
+}
+
+.disabled {
+  width: 80%;
+  max-width: 325px;
+  margin:auto;
+  position: fixed;
+  z-index: 999;
+  background-color: black;
+  margin-top: 300px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
 }
 
 
