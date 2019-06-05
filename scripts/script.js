@@ -8,17 +8,6 @@ window.onload = function(){
   }
 }
 
-//CHANGES THE TITLE TEXT WHETHER THE MOUSE IS OVER IT
-document.querySelector(".main-name").addEventListener('mouseover', changeText); //changes h1 text based on mouse position
-  function changeText(){                                                        //could combine the two functions into an if else function
-    document.querySelector(".main-name").innerHTML = "Hello World";
-}
-
-document.querySelector(".main-name").addEventListener("mouseleave", defaultText); //change h1 text back
-  function defaultText(){
-    document.querySelector(".main-name").innerHTML = "Bradley Archer";
-  }
-
 //ADDS LOGIC TO MOBILE MENU BUTTON AND TOGGLES VISIBILITY
 document.querySelector(".btn-mobile").addEventListener("click", showMenu); //controls the visbility of mobile menu
   function showMenu(){                                                     //unable to add animation because of display: block

@@ -106,8 +106,6 @@ footer {
 
 .sociallinks {
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, .3);
-  border-top: 1px solid rgba(0, 0, 0, .3);
   padding-bottom: 2px;
   padding-top: 2px;
 }
@@ -133,6 +131,7 @@ footer {
   width: 100%;
   text-align: center;
   color: black;
+  line-height: 17px;
 }
 
 .links {
@@ -147,7 +146,7 @@ footer {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .flex-grid {
@@ -284,6 +283,42 @@ footer {
   height: 100%;
   margin: auto;
   padding: 0;
+}
+
+.links {
+  width: 100%;
+  height: 40px;
+  line-height: var(--main-line-height);
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.sociallinks {
+  width: 35%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: auto;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.fa {
+  color: black;
+  transition: transform .3s;
+  text-decoration: none;
+}
+
+.fa:hover {
+  transform: scale(1.5);
+  text-decoration: none;
+}
+
+.tooltip-inner {
+    font-family: 'loves';
+    font-size: .8em;
 }
 
 
@@ -534,12 +569,6 @@ h3 {
   object-fit: cover;
 }
 
-iframe {
-  border: none;
-  width: 100%;
-  height: 300px;
-}
-
 /*END INTERESTS PAGE*/
 
 
@@ -626,8 +655,11 @@ iframe {
   .col-last {
     margin-bottom: 75px;
 }
-}
 
+  .sociallinks {
+    width: 80%;
+}
+}
 @media only screen and (min-width: 480px) and (max-width:768px){    /* REDESIGNED NAVIGATION MEDIA QUERY/ DO NOT CHANGE */
   nav {
     width: 100%;
@@ -673,10 +705,6 @@ iframe {
 
   .i-col-big {
     width: 70%;
-  }
-
-  iframe {
-    height:100%;
   }
 }
 
