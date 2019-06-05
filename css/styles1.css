@@ -526,6 +526,12 @@ h3 {
 }
 
 .flex-interests-2 {
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-interests-3 {
   margin-bottom: 75px;
   flex-wrap: wrap;
   width: 100%;
@@ -695,7 +701,7 @@ h3 {
 
 
 @media only screen and (min-width:480px){   /*INTERESTS PAGE MEDIA QUERIES*/
-  .flex-interests-1, .flex-interests-2 {
+  .flex-interests-1, .flex-interests-2, .flex-interests-3 {
     display: flex;
   }
 

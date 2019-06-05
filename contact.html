@@ -54,19 +54,19 @@
               <form method"POST" action="action/form-submit.php"> <!--NO FOR ATTRIBUTE, NOT ADDING FUNCTIONALITY-->
                 <h2>Contact Me:</h2>
                   <label>Your Name:</label>
-                    <input name="name" type="text" placeholder="Your Name..." required/>
+                    <input name="name" type="text" placeholder="Your Name..." required disabled/>
                   <label>Email:</label>
-                    <input name="email" type="email" placeholder="Email..." required/>
+                    <input name="email" type="email" placeholder="Email..." required disabled/>
                   <label>Query Type:</label>
-                    <select id="qry" name="query" required>
+                    <select id="qry" name="query" required disabled>
                       <option value="" disabled selected>Please Select:</option>
                       <option value="jobs">Jobs</option>
                       <option value="website">Website Issues</option>
                       <option value="info">Information</option>
                     </select>
                   <label>Your Message:</label>
-                  <textarea name="info" placeholder="Your Message..." required></textarea>
-                  <input type="submit" value="Submit">
+                  <textarea name="info" placeholder="Your Message..." required disabled></textarea>
+                  <input type="submit" value="Submit" disabled>
               </form>
             </div>
         </div>
