@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+  <html lang="en">
+    <head>
+      <title>Contact</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/styles1.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1"> <!--RESIZES CONTENT FOR MOBILE-->
+      <link rel="icon" href="img/brad.ico"/>
+    </head>
+
+<body>
+  <header>
+      <h1 class="main-name">Bradley Archer</h1>
+
+    <div class="btn-mobile">
+      <a><img class="downarrow" src="img/down.png" alt="down-arrow"></a>
+    </div>
+
+    <nav class="nav-menu">
+      <ul class="menu">
+        <li><a href="index.html" class="startpage">StartPage</a></li>
+        <li><a href="education.html" class="education">Education</a></li>
+        <li><a href="interests.html" class="interests">Interests</a></li>
+        <li><a href="contact.html" class="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="flex-box-container-2">
+      <div class="flex-grid-11">
+        <div class="col-2">
+          <div class="contact-text-box">
+            <h2>Help:</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan ultrices ipsum,
+                eu finibus nulla eleifend sed. Ut vehicula nunc sapien, ac convallis diam bibendum iaculis.
+                Integer fermentum urna arcu, sed pretium velit faucibus sit amet. Nulla quis lacus lacus.
+                Nunc eu lorem erat. Nulla enim nisi, maximus in felis a, porta varius turpis. Donec tristique
+                ligula ut convallis imperdiet. Sed hendrerit aliquam odio sed pretium. Nulla tincidunt fringilla
+                felis, sed rutrum nibh vestibulum eu. Aliquam erat volutpat. Donec velit ante, mattis in dictum
+                eu, fermentum quis eros. Nunc elementum metus a leo hendrerit, id tempor velit consectetur. In
+                venenatis erat purus, et ornare magna bibendum a. Nulla ut massa augue. Sed sodales, metus vitae
+                convallis.</p>
+          </div>
+
+        <!--  <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe> -->
+
+
+        </div>
+
+
+        <div class="col-2-middle">
+            <div class="flex-contact">
+              <form> <!--NO FOR ATTRIBUTE, NOT ADDING FUNCTIONALITY-->
+                <h2>Contact Me:</h2>
+                  <label>Your Name:</label>
+                    <input name="name" type="text" placeholder="Your Name..." required/>
+                  <label>Email:</label>
+                    <input name="email" type="email" placeholder="Email..." required/>
+                  <label>Query Type:</label>
+                    <select id="qry" name="query" required>
+                      <option value="" disabled selected>Please Select:</option>
+                      <option value="jobs">Jobs</option>
+                      <option value="website">Website Issues</option>
+                      <option value="info">Information</option>
+                    </select>
+                  <label>Your Message:</label>
+                  <textarea name="info" placeholder="Your Message..." required></textarea>
+                  <input type="submit" value="Submit">
+              </form>
+            </div>
+        </div>
+
+        <div class="col-2">
+          <div class="contact-text-box">
+            <div class="map-title">
+              <h2>My Location:</h2>
+            </div>
+
+        <div class="map"></div> <!-- DIV Placeholder for the google map API, customised in CSS -->
+          <div class="map-message">
+            <p>Click the marker for more info</p>
+          </div>
+
+            <div class="map-info">
+              <h3>Contact Information:</h3>
+              <p>Bradley Archer</p>
+              <p>1 Lineker Road</p>
+              <p>Filbert Village</p>
+              <p>Leicester<p>
+              <p>Leicestershire<p>
+              <p>LE2 7FZ</p>
+              <p>Email: <a href="mailto:bradarcher15@gmail.com?Subject=Website%20Enquiry">Bradarcher15@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+    <footer>
+      <div class="sociallinks">
+        <a href="https://www.facebook.com"><img class="links" src="img/socials/facebook.png" alt="Facebook"></a>
+    		<a href="https://www.twitter.com/iarcherz"><img class="links" src="img/socials/twitter.png" alt="Twitter"></a>
+        <a href="mailto:bradarcher15@gmail.com?Subject=Website%20Enquiry"><img class="link-img" src="img/socials/mail.png" alt="Mail"></a>
+    		<a href="https://www.instagram.com"><img class="links" src="img/socials/instagram.png" alt="Instagram"></a>
+    		<a href="https://www.youtube.com"><img class="links-2" src="img/socials/youtube.png" alt="Youtube"></a>
+      </div>
+        <div class="copyright">
+          Ⓒ Bradley Archer
+        </div>
+    </footer>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu3MmlwvX4XDRXKNJcm1cyJRA9CtQHQy0&callback=initMap"></script>
+
+<script src="scripts/script.js"></script>
+</body>
+
+</html>

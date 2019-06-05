@@ -51,114 +51,6 @@ header {
 	100% {background-position: 0% 50%}
 }
 
-.main-name-container {
-  width: 100%;
-}
-
-.main-name-container > a {
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-}
-
-.main-name{
-  width: 100%;
-  text-align: center;
-  border-bottom: var(--border-lines);
-}
-
-.btn-mobile {
-  width: 100%;
-  text-align: center;
-  transition-duration: 1s;
-  cursor: pointer;
-  border-bottom: var(--border-lines);
-}
-
-.btn-mobile:hover {
-  background-color: #313131;
-  border-radius: 10px;
-}
-
-.btn-mobile > img:active {
-  transform: rotate(180deg);
-}
-
-.downarrow {
-  height: 10px;
-  cursor: pointer;
-  transition-duration: .5s;
-}
-
-.downarrow.flip {
-  transform: rotate(-180deg);
-}
-
-nav{
-  width:100%;
-  overflow: visible;
-}
-
-ul > li {
-  display: block;
-  text-align: center;
-  float: none;
-}
-
-.menu {
-  width: 100%;
-  display: none;
-  background-color: #ffb3e9;
-  z-index: 999;
-}
-
-nav > ul{
-  list-style: none;
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-
-li > a {
-  display: block;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1em;
-  line-height: 35px;
-  padding-right: 7.5px;
-  padding-left: 7.5px;
-  transition-duration: 1s;
-}
-
-nav li a:hover {
-  background-color: #2f2f2f;
-  color: white;
-  border-radius: 20px;
-}
-
-.page-title {
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  background-color: #ffb3e9;
-}
-
-.page-title > h2 {
-  float: left;
-  padding-top: 0;
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 35px;
-}
-
-.filler {
-  width: 100%;
-  height: 800px;
-  background-color: yellow;
-  padding-top: 59px;
-}
-
 .flex {
   display: flex;
   min-height: 100%;
@@ -336,16 +228,16 @@ nav li a:hover {
 @keyframes head {
     15% {opacity:1; content: "Welcome"} /*LAYOUT OF KEYFRAMES IS DUE TO UNCONTROLLABLE OVERLAPPING*/
     19% {opacity:0; content: "Welcome"} /*ANIMATION*/
-    21% {opacity:0; content: "Please Have a Seat"} /*TEXT CHANGE*/
-    25% {opacity:1; content: "Please Have a Seat"} /*ANIMATION*/
+    21% {opacity:0; content: "Recent De Montfort Graduate"} /*TEXT CHANGE*/
+    25% {opacity:1; content: "Recent De Montfort Graduate"} /*ANIMATION*/
 
-    40% {opacity:1; content: "Please Have a Seat"} /*TEXT*/
-    44% {opacity:0; content: "Please Have a Seat"} /*ANIMATION*/
-    46% {opacity:0; content: "This is Me"} /*TEXT CHANGE*/
-    50% {opacity:1; content: "This is Me"} /*ANIMATION*/
+    40% {opacity:1; content: "Recent De Montfort Graduate"} /*TEXT*/
+    44% {opacity:0; content: "Recent De Montfort Graduate"} /*ANIMATION*/
+    46% {opacity:0; content: "BoS (Hons), Computing"} /*TEXT CHANGE*/
+    50% {opacity:1; content: "BoS (Hons), Computing"} /*ANIMATION*/
 
-    65% {opacity:1; content: "This is Me"} /*TEXT*/
-    69% {opacity:0; content: "This is Me"} /*ANIMATION*/
+    65% {opacity:1; content: "BoS (Hons), Computing"} /*TEXT*/
+    69% {opacity:0; content: "BoS (Hons), Computing"} /*ANIMATION*/
     71% {opacity:0; content: "Contact Links Above"} /*TEXT CHANGE*/
     75% {opacity:1; content: "Contact Links Above"} /*ANIMATION*/
 
@@ -363,18 +255,18 @@ nav li a:hover {
   font-size: var(--font-size-body);
 }
 
-.disabled {
-  width: 80%;
-  max-width: 325px;
-  margin:auto;
-  position: fixed;
-  z-index: 999;
-  background-color: black;
-  margin-top: 300px;
-  font-size: 12px;
-  text-align: center;
-  color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Extra small devices (phones, less than 768px) */
