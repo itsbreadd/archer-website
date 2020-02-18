@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffa5611b-9d78-46af-874d-abe9e9b46f7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +26,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,7 +48,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581976717362</updated>
-      <workItem from="1581976722474" duration="4427000" />
+      <workItem from="1581976722474" duration="4611000" />
+      <workItem from="1582063811726" duration="3726000" />
     </task>
     <servers />
   </component>
@@ -48,6 +57,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1240" height="605" key="DiffContextDialog" timestamp="1582064458555">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="100" y="123" width="1240" height="605" key="DiffContextDialog/0.23.1440.805@0.23.1440.805" timestamp="1582064458555" />
+    <state x="229" y="64" key="SettingsEditor" timestamp="1582064455284">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="229" y="64" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1582064455284" />
     <state x="376" y="37" width="687" height="777" key="find.popup" timestamp="1581977884103">
       <screen x="0" y="23" width="1440" height="805" />
     </state>

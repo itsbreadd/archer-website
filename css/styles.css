@@ -46,23 +46,22 @@ header {
 }
 
 @keyframes fadeanim {
-	0% {background-position: 0% 50%}
-	50% {background-position: 100% 50%}
-	100% {background-position: 0% 50%}
+  0% {background-position: 0% 50%}
+  50% {background-position: 100% 50%}
+  100% {background-position: 0% 50%}
 }
 
 .flex {
   min-height: 100%;
   width: 100%;
+  box-sizing: border-box;
   background: linear-gradient(-45deg, #EE7752, #f442c2, #62c6fc, #23D5AB);
   background-size: 400% 400%;
   animation: fadeanim 10s ease infinite;
-  box-sizing: border-box;
-  padding-top:20px;
-  padding-bottom: 20px;
 }
 
 .main-container {
+  position: absolute;
   width:80%;
   max-width: 450px;
   height:500px;
@@ -119,7 +118,7 @@ header {
   opacity: 1;
 }
 
-.sociallinks {
+.social-links {
   height: 100%;
   display: flex;
   align-items: center;
@@ -155,57 +154,12 @@ header {
   margin:auto;
 }
 
-.enterbutton {
-  display: block;
-  background-color: black;
-  text-decoration: none;
-  font-size: var(--button-font-2);
-  color: white;
-  line-height: 30px;
-  height: 30px;
-  width: 105px;
-  border-radius: 5px;
-  margin:auto;
-  position: relative;
-  margin-top: 5px;
-  transition: opacity .3s ease-in-out;
-  opacity: 1;
-  transition: transform .3s;
-}
-
 .cv-container {
   overflow:auto;
   width: 100%;
   background-color:  var(--main-background-color);
   height: 50px;
   margin:auto;
-}
-
-.enterbutton:hover, .CVbutton:hover { /*Hover animations for all buttons*/
-  opacity: .7;
-  text-decoration: none;
-  color: white;
-  transform: scale(1.1);
-
-}
-
-.CVbutton {
-  display: block;
-  background-color: black;
-  text-decoration: none;
-  font-size: var(--button-font-1);
-  color: white;
-  line-height: 40px;
-  height: 40px;
-  width: 130px;
-  border-radius: 5px;
-  margin:auto;
-  position: relative;
-  margin-top: 5px;
-  transition: opacity .3s ease-in-out;
-  opacity: 1;
-  transition: transform .3s;
-  overflow: hidden;
 }
 
 .text-slider {
@@ -261,32 +215,19 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query*/
 /* Design for Mobile First*/
 
-@media (min-width: 480px) {
+/*@media (min-width: 480px) {*/
 
-}
+/*}*/
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+/*!* Small devices (tablets, 768px and up) *!*/
+/*@media (min-width: 768px) { ... }*/
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+/*!* Medium devices (desktops, 992px and up) *!*/
+/*@media (min-width: 992px) { ... }*/
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+/*!* Large devices (large desktops, 1200px and up) *!*/
+/*@media (min-width: 1200px) { ... }*/

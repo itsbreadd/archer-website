@@ -11,13 +11,13 @@ window.onload = function(){
 //ADDS LOGIC TO MOBILE MENU BUTTON AND TOGGLES VISIBILITY
 document.querySelector(".btn-mobile").addEventListener("click", showMenu); //controls the visbility of mobile menu
   function showMenu(){                                                     //unable to add animation because of display: block
-    const visbility = document.querySelector(".menu");
+    const visibility = document.querySelector(".menu");
     const headerTag = document.getElementsByTagName("header")[0];
-      if (visbility.style.display != "block") {
-          visbility.style.display = "block";
+      if (visibility.style.display != "block") {
+          visibility.style.display = "block";
           headerTag.style.marginBottom = "175px";
       } else {
-        visbility.style.display = "none";
+          visibility.style.display = "none";
         headerTag.style.marginBottom = "20px";
   }
 }
