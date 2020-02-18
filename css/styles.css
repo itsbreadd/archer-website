@@ -146,7 +146,7 @@ header {
 }
 
 .enter-container {
-  height: 40px;
+  height: 10%;
   line-height: 30px;
   width:100%;
   background-color: var(--main-background-color);
@@ -158,7 +158,7 @@ header {
   overflow:auto;
   width: 100%;
   background-color:  var(--main-background-color);
-  height: 50px;
+  height: 10%;
   margin:auto;
 }
 
@@ -201,11 +201,16 @@ header {
 }
 
 .copyright {
+  display: flex;
   width: 100%;
   background-color: var(--main-background-color);
-  height: 20px;
-  line-height: 20px;
+  height: 10%;
   font-size: var(--font-size-body);
+  justify-content: center;
+}
+
+.copyright > p {
+  align-self: flex-end;
 }
 
 .flex-boi {
