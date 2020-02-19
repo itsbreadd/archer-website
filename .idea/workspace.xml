@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ffa5611b-9d78-46af-874d-abe9e9b46f7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script-home.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script-home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/start-page.less" beforeDir="false" afterPath="$PROJECT_DIR$/styles/start-page.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,7 +51,7 @@
       <updated>1581976717362</updated>
       <workItem from="1581976722474" duration="4611000" />
       <workItem from="1582063811726" duration="4606000" />
-      <workItem from="1582144853528" duration="3121000" />
+      <workItem from="1582144853528" duration="4776000" />
     </task>
     <servers />
   </component>
@@ -64,10 +63,10 @@
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="100" y="123" width="1240" height="605" key="DiffContextDialog/0.23.1440.805@0.23.1440.805" timestamp="1582064458555" />
-    <state x="229" y="64" key="SettingsEditor" timestamp="1582145453969">
+    <state x="229" y="64" key="SettingsEditor" timestamp="1582151281400">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="229" y="64" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1582145453969" />
+    <state x="229" y="64" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1582151281400" />
     <state x="376" y="37" width="687" height="777" key="find.popup" timestamp="1581977884103">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
